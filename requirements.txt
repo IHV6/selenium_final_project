@@ -34,7 +34,7 @@ pytest-rerunfailures==7.0
 pytest-select==0.1.2
 pytest-xdist==1.26.0
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.1
 raven==6.10.0
 requests==2.21.0
 selenium==3.141.0

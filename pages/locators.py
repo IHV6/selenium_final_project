@@ -21,3 +21,7 @@ class ProductPageLocators():
     PRODUCT_TITLE = (By.XPATH, '//h1')
     BASKET_TOTAL_PRICE = (By.XPATH, '//div[@class="alert alert-safe alert-noicon alert-info  fade in"]/div/p/strong')
     PRODUCT_PRICE = (By.XPATH, '//p[@class="price_color"]')
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")

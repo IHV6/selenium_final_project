@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK = (By.XPATH, "//a[@id='login_link']")
 
 
 class LoginPageLocators():
@@ -22,11 +22,13 @@ class ProductPageLocators():
     BASKET_TOTAL_PRICE = (By.XPATH, '//div[@class="alert alert-safe alert-noicon alert-info  fade in"]/div/p/strong')
     PRODUCT_PRICE = (By.XPATH, '//p[@class="price_color"]')
 
+
 class BasePageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    LOGIN_LINK = (By.XPATH, "//a[@id='login_link']")
+    LOGIN_LINK_INVALID = (By.XPATH, "//a[@id='login_link_ink']")
     BASKET = (By.XPATH, "//a[@class='btn btn-default']")
     USER_ICON = (By.XPATH, "//i[@class='icon-user']")
+
 
 class BasketPageLocators():
     BASKET_IS_EMPTY = (By.XPATH, "//div[@id='content_inner']/p")

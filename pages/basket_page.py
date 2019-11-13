@@ -1,6 +1,7 @@
 from .base_page import BasePage
 from .locators import BasketPageLocators
 
+
 class BasketPage(BasePage):
     def should_be_basket_url(self):
         assert self.browser.current_url, "Basket link is not found"

@@ -1,0 +1,1 @@
+# Selenium autotests with pytest
